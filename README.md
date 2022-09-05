@@ -4,8 +4,7 @@
 а так же composer update
 </p>
 <p>
-API
-    GET
+API GET
     <br>
 {host}/task-all - вывести все записи
     <br>
@@ -17,7 +16,7 @@ API
     <br>
 {host}/task-finish/{id} - перевести запись в статус завершенное
     <br>
-    POST
+    API POST
     <br>
 {host}/task-add - добавить запись все записи
 </p>
