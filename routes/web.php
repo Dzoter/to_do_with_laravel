@@ -25,3 +25,8 @@ Route::get('/task-finish/{taskId}', [\App\Http\Controllers\ToDoController::class
 Route::get('/task-active', [\App\Http\Controllers\ToDoController::class,'getAllActiveTasks'])->name('activeTasks');
 Route::get('/task-done', [\App\Http\Controllers\ToDoController::class,'getAllDoneTasks'])->name('doneTasks');
 
+
+
+
+
+

@@ -14,6 +14,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
-    return $request->user();
-});
+Route::get('/task-all',[\App\Http\Controllers\Api\ToDoController::class,'showAllToDo']);
+
+Route::get('/task-active',[\App\Http\Controllers\Api\ToDoController::class,'getAllActiveTasks']);
+
+Route::get('/task-done',[\App\Http\Controllers\Api\ToDoController::class,'getAllDoneTasks']);
+
+Route::get('/task-delete/{taskId}',[\App\Http\Controllers\Api\ToDoController::class,'deleteTask']);
+
+Route::get('/task-finish/{taskId}',[\App\Http\Controllers\Api\ToDoController::class,'finishTask']);
+
+Route::post('/task-add',[\App\Http\Controllers\Api\ToDoController::class,'addToDo']);

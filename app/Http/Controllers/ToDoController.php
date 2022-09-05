@@ -24,6 +24,7 @@ class ToDoController extends Controller
 
     public function showAllToDo()
     {
+
         return view('sections.toDoList', ['tasks' => Tasks::all()]);
     }
 
