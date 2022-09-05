@@ -6,19 +6,19 @@
 <p>
 API GET
     <br>
-{host}/task-all - вывести все записи
+{host}/api/task-all - вывести все записи
     <br>
-{host}/task-active - вывести все активные записи
+{host}/api/task-active - вывести все активные записи
     <br>
-{host}/task-done - вывести все завершенные записи
+{host}/api/task-done - вывести все завершенные записи
     <br>
-{host}/task-delete/{id} - удалить запись по id
+{host}/api/task-delete/{id} - удалить запись по id
     <br>
-{host}/task-finish/{id} - перевести запись в статус завершенное
+{host}/api/task-finish/{id} - перевести запись в статус завершенное
     <br>
     API POST
     <br>
-{host}/task-add - добавить запись
+{host}/api/task-add - добавить запись
 </p>
 
 <p align="center">
