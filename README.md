@@ -15,7 +15,7 @@ API
     <br>
 {host}/task-delete/{id} - удалить запись по id
     <br>
-{host}/task-finish - перевести запись в статус завершенное
+{host}/task-finish/{id} - перевести запись в статус завершенное
     <br>
     POST
     <br>
