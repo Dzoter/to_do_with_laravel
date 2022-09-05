@@ -4,6 +4,22 @@
 а так же composer update
 </p>
 <p align="center">
+API
+    //GET
+{host}/task-all - вывести все записи
+    
+{host}/task-active - вывести все активные записи
+    
+{host}/task-done - вывести все завершенные записи
+    
+{host}/task-delete/{id} - удалить запись по id
+    
+{host}/task-finish - перевести запись в статус завершенное
+    //POST
+{host}/task-add - добавить запись все записи
+</p>
+
+<p align="center">
 <a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
