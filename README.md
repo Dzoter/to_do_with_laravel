@@ -6,16 +6,19 @@
 <p>
 API
     GET
+    <br>
 {host}/task-all - вывести все записи
-    
+    <br>
 {host}/task-active - вывести все активные записи
-    
+    <br>
 {host}/task-done - вывести все завершенные записи
-    
+    <br>
 {host}/task-delete/{id} - удалить запись по id
-    
+    <br>
 {host}/task-finish - перевести запись в статус завершенное
+    <br>
     POST
+    <br>
 {host}/task-add - добавить запись все записи
 </p>
 
