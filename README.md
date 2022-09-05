@@ -3,7 +3,7 @@
 Не забудь вставить свой .env файл с информацией о соединении с бд
 а так же composer update
 </p>
-<p align="center">
+<p>
 API
     GET
 {host}/task-all - вывести все записи
