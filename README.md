@@ -5,7 +5,7 @@
 </p>
 <p align="center">
 API
-    //GET
+    GET
 {host}/task-all - вывести все записи
     
 {host}/task-active - вывести все активные записи
@@ -15,7 +15,7 @@ API
 {host}/task-delete/{id} - удалить запись по id
     
 {host}/task-finish - перевести запись в статус завершенное
-    //POST
+    POST
 {host}/task-add - добавить запись все записи
 </p>
 
