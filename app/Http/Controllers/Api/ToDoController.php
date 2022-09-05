@@ -49,9 +49,10 @@ class ToDoController extends Controller
 
     public function deleteTask($taskId)
     {
+
         $task = Tasks::find($taskId);
 
-        if ($task->done){
+        if (!is_null($task)&&$task->done){
             $task->delete();
             return response()->json(['status'=>200,'message'=>'Запись успешно удалена'],200);
         }
