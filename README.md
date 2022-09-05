@@ -18,7 +18,7 @@ API GET
     <br>
     API POST
     <br>
-{host}/task-add - добавить запись все записи
+{host}/task-add - добавить запись
 </p>
 
 <p align="center">
